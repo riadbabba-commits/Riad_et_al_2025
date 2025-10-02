@@ -1,0 +1,24 @@
+{
+    "LinearRegression": {
+        "fit_intercept": true
+    },
+    "DecisionTree": {
+        "max_depth": 7,
+        "criterion": "squared_error"
+    },
+    "RandomForest": {
+        "n_estimators": 100,
+        "max_depth": 7,
+        "criterion": "squared_error"
+    },
+    "XGBoost": {
+        "n_estimators": 100,
+        "learning_rate": 0.1,
+        "max_depth": 6
+    },
+    "DataProcessing": {
+        "scaling": "StandardScaler",
+        "train_test_split": 0.8,
+        "random_state": 42
+    }
+}
